@@ -21,11 +21,11 @@ public class Main {
         System.out.println(theFirstTree.toString());
         System.out.println(theSecondTree.toString());
         Monkey m1 = new Monkey();
-        System.out.println(theFirstTree.getFruitType() + "  " + m1.countFruitOnTheTree(theFirstTree));
+        System.out.println(theFirstTree.getFruitType() + ":  " + m1.countFruitOnTheTree(theFirstTree));
         Monkey m2 = new Monkey();
-        System.out.println(theFirstTree.getFruitType() + " " + m2.countFruitOnTheTree(theSecondTree));
+        System.out.println(theSecondTree.getFruitType() + ": " + m2.countFruitOnTheTree(theSecondTree));
         Monkey m3 = new Monkey();
-        System.out.println("in all " + m3.countFruitOnTheTree(theFirstTree, theSecondTree));
+        System.out.println("IN ALL: " + m3.countFruitOnTheTree(theFirstTree, theSecondTree));
     }
 
 }
