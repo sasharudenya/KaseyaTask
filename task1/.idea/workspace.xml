@@ -9,6 +9,10 @@
       <change beforePath="$PROJECT_DIR$/../monkeysAndTrees/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../monkeysAndTrees/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../monkeysAndTrees/out/production/task1/controller/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../monkeysAndTrees/out/production/task1/controller/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../monkeysAndTrees/src/controller/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../monkeysAndTrees/src/controller/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/model/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/log_file.log" beforeDir="false" afterPath="$PROJECT_DIR$/model/log_file.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,7 +76,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
-    <option name="width" value="979" />
+    <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -96,8 +100,8 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
@@ -196,16 +200,18 @@
       <workItem from="1558046857248" duration="878000" />
       <workItem from="1558074660019" duration="1641000" />
       <workItem from="1558082701331" duration="42000" />
+      <workItem from="1558099050872" duration="107000" />
+      <workItem from="1558101205221" duration="15000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23094000" />
+    <option name="totallyTimeSpent" value="23216000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5751678" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.59261745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -347,6 +353,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
+          <last-edited>No facets are configured</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

@@ -6,7 +6,6 @@ import java.util.*;
 public class File {
 
     public static void fileInput(String fileName, String words) {
-                List<String> l = null;
                 Writer writer = null;
                 try {
                     writer = new FileWriter(fileName + ".txt", true);

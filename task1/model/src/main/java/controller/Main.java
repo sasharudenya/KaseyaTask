@@ -14,6 +14,7 @@ public class Main {
     private static final Logger log = Logger.getLogger(Main.class);
 
     public static void main(String[] args) {
+        try {
         String nameUser = KeybordInput.inputString("Введите имя пользователя:");
         String newWord = KeybordInput.inputString("Введите слово или словосочетание, которое хотите найти:");
         String siteName = KeybordInput.inputString("Введите название сайта:");
@@ -27,7 +28,7 @@ public class Main {
             String[] s = htmlFile.text().split("#<([a-z]+)[^/>]*(?:/>|>(?:.+</\\1>))#Uis");
             for(int i = 0; i < s.length; i++) {
                 for(int j = 0; j < listRead.size(); j++) {
-                    if (s[i].contains(listRead.get(j).trim())) {
+                    if (s[i].toLowerCase().contains(listRead.get(j).trim().toLowerCase())) {
                         log.info(listRead.get(j));
                     }
                 }
@@ -37,6 +38,9 @@ public class Main {
             log.error(e);
             e.printStackTrace();
         }
-        System.out.println(htmlFile.title());
+        System.out.println(htmlFile.title()); }
+        catch (Exception e) {
+            //e.printStackTrace();
+        }
     }
 }

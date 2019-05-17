@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         Node root1 = new Node(new ArrayList<>(),5, 20),
                 root2 = new Node(new ArrayList<>(),5, 20);
-        for (int i = 0; i < Random.randomCountFruit(0, 2); i++) {
+        for (int i = 0; i < Random.randomCountFruit(6, 7); i++) {
             root1.getBranches().add(new Node(5,20));
             root2.getBranches().add(new Node(5,20));
         }
